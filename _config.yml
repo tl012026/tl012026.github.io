@@ -4,3 +4,7 @@ theme: minima
 header_pages:
   - index.md
   - about.md
+
+author: Yuchen Le
+email: yl13095@nyu.edu
+url: https://tl012026.github.io
