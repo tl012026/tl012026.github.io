@@ -9,7 +9,6 @@ I’m building this site to share notes, projects, and research updates.
 
 [About me](/about/) · [GitHub](https://github.com/tl012026)
 
----
 
 ## What you’ll find here
 
@@ -22,12 +21,7 @@ Small demos, code links, and reproducible results.
 ### Updates
 Occasional progress logs and announcements.
 
----
 
 ## Latest posts
-(Posts will show up here once you add files under `_posts/`.)
 
----
 
-## Contact
-- Email: `your_email@example.com`
