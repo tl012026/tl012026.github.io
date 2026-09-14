@@ -5,49 +5,74 @@
 
 /* ---- Home hero / layout tweaks (minima) ---- */
 
+$bg: #ffffff;
+$ink: #000000;
+$muted: #000000;
+$link: #000000;
+
+body {
+  background: $bg;
+  color: $ink;
+  font-family: Garamond, "EB Garamond", "Palatino Linotype", Palatino, "Times New Roman", serif;
+}
+
+.site-header,
+.site-footer {
+  border: none;
+  background: $bg;
+  color: $ink;
+  font-family: Garamond, "EB Garamond", "Palatino Linotype", Palatino, "Times New Roman", serif;
+}
+
 .hero {
   padding: 2.5rem 1.5rem;
-  border: 1px solid rgba(0,0,0,.08);
-  border-radius: 16px;
-  background: linear-gradient(135deg, rgba(0,0,0,.03), rgba(0,0,0,.01));
+  border: none;
+  border-radius: 0;
+  background: $bg;
+  color: $ink;
 }
 
 .hero h1 {
   margin: 0 0 .5rem 0;
   font-size: 2.2rem;
   letter-spacing: -0.02em;
+  color: $ink;
+  font-family: Garamond, "EB Garamond", "Palatino Linotype", Palatino, "Times New Roman", serif;
 }
 
 .hero p {
   margin: 0.5rem 0 1.25rem 0;
   font-size: 1.05rem;
-  color: rgba(0,0,0,.72);
+  color: $muted;
 }
 
 .btn-row {
   display: flex;
-  gap: .75rem;
+  gap: 1.25rem;
   flex-wrap: wrap;
+  align-items: baseline;
 }
 
-.btn {
-  display: inline-block;
-  padding: .55rem .9rem;
-  border-radius: 999px;
-  border: 1px solid rgba(0,0,0,.18);
+.btn,
+.btn.primary,
+.btn.ghost {
+  display: inline;
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
   text-decoration: none !important;
   font-weight: 600;
+  font-family: Garamond, "EB Garamond", "Palatino Linotype", Palatino, "Times New Roman", serif;
+  color: $link !important;
 }
 
-.btn.primary {
-  background: #111;
-  color: #fff !important;
-  border-color: #111;
-}
-
-.btn.ghost {
-  background: #fff;
-  color: #111 !important;
+.btn:hover,
+.btn.primary:hover,
+.btn.ghost:hover {
+  color: $ink !important;
+  text-decoration: underline !important;
 }
 
 .grid {
@@ -59,20 +84,23 @@
 
 .card {
   grid-column: span 12;
-  padding: 1.1rem 1.1rem;
-  border-radius: 14px;
-  border: 1px solid rgba(0,0,0,.10);
-  background: #fff;
+  padding: 1.1rem 0;
+  border-radius: 0;
+  border: none;
+  background: transparent;
+  color: $ink;
 }
 
 .card h3 {
   margin-top: 0;
   margin-bottom: .25rem;
+  color: $ink;
+  font-family: Garamond, "EB Garamond", "Palatino Linotype", Palatino, "Times New Roman", serif;
 }
 
 .card p {
   margin: 0;
-  color: rgba(0,0,0,.72);
+  color: $muted;
 }
 
 @media (min-width: 900px) {
