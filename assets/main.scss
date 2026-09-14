@@ -103,6 +103,26 @@ body {
   color: $muted;
 }
 
+.card p + p {
+  margin-top: 0.75rem;
+}
+
+.about-home {
+  padding: 0 1.5rem 2.5rem;
+}
+
+.about-home h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.35rem;
+  font-family: Garamond, "EB Garamond", "Palatino Linotype", Palatino, "Times New Roman", serif;
+}
+
+.about-home p {
+  margin: 0;
+  font-size: 1.05rem;
+  color: $muted;
+}
+
 @media (min-width: 900px) {
   .card.col-4 { grid-column: span 4; }
   .card.col-6 { grid-column: span 6; }
