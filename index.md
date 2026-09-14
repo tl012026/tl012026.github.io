@@ -3,7 +3,7 @@ layout: home
 ---
 
 <div class="hero">
-  <h1>Hi, I’m tl012026</h1>
+  <h1>Hi, I’m Yuchen Le</h1>
   <p>
     Welcome to my personal site — I share notes, projects, and research updates.
   </p>
